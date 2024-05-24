@@ -4,16 +4,16 @@ public class Iphone {
         AparelhoTelefonico telefone = new AparelhoTelefonico();
         ReprodutorMusical reprodutor = new ReprodutorMusical();
         
-        navegador.exibirPagina();
+        navegador.exibirPagina("www");
         navegador.adicionarNovaAba();
         navegador.atualizarPagina();
 
-        telefone.ligar();
+        telefone.ligar("123-456-7890");
         telefone.atender();
         telefone.iniciarCorreioDeVoz();
 
         reprodutor.tocar();
         reprodutor.pausar();
-        reprodutor.selecionarMusica();
+        reprodutor.selecionarMusica("ABC");
     }
 }

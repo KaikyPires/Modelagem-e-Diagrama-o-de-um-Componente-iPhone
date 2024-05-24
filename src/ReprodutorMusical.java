@@ -7,7 +7,7 @@ public class ReprodutorMusical {
         System.out.println("Música pausada.");
     }
 
-    public void selecionarMusica() {
-        System.out.println("Selecionando música.");
+    public void selecionarMusica(String musica) {
+        System.out.println("Selecionando a música: " + musica);
     }
 }

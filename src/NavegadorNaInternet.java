@@ -1,7 +1,8 @@
 public class NavegadorNaInternet {
-    public void exibirPagina() {
-        System.out.println("Exibindo a página.");
+    public void exibirPagina(String url) {
+        System.out.println("Exibindo página: " + url);
     }
+
 
     public void adicionarNovaAba() {
         System.out.println("Nova aba adicionada.");

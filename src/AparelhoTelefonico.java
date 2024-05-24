@@ -1,6 +1,6 @@
 public class AparelhoTelefonico {
-    public void ligar() {
-        System.out.println("Iniciando uma ligação...");
+    public void ligar(String numero) {
+        System.out.println("Ligando para: " + numero);
     }
 
     public void atender() {
